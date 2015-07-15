@@ -3,4 +3,11 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="say_hi">Say Hi</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="crash_me">Crash Me</string>
+    <string name="title_activity_button_bug">ButtonBugActivity</string>
+
+    <string name="button_bug_activity">Button Bug Activity</string>
 </resources>
