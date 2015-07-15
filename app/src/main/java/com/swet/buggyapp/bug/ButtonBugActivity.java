@@ -34,12 +34,14 @@ public class ButtonBugActivity extends AbstractBugActivity {
         this.textView.setText("Hello");
     }
 
-    public void crashMe(View _) {
-        // On pressing this button, application will be crashed for android 4.2.x
-        if (Build.VERSION.SDK_INT == 17) {
-            throw new RuntimeException("This is a crash");
-        }
-    }
+// Commenting out the below method so that application will be crashed on pressing "crashMe" button
+
+//    public void crashMe(View _) {
+//        // On pressing this button, application will be crashed for android 4.2.x
+//        if (Build.VERSION.SDK_INT == 17) {
+//            throw new RuntimeException("This is a crash");
+//        }
+//    }
 
 
 }
